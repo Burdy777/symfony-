@@ -1,0 +1,12 @@
+app_advert:
+    path:     /
+    defaults: { _controller: AppBundle:Advert:setAdvert }
+
+app_my_advert:
+    path:     /myannonce
+    defaults: { _controller: AppBundle:Advert:getAdvert }
+    
+app_default:
+    path:     /default
+    defaults: { _controller: AppBundle:Default:view }
+
